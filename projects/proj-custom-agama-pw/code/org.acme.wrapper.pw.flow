@@ -1,5 +1,5 @@
 Flow org.acme.wrapper.pw
      Basepath ""
-auth-passed = Trigger org.gluu.agama.pw.main auth-passed
-it_wrrlx = {success:true, data: { userId: "as9233Qz", property1: "value1"}}
-Finish it_wrrlx
+authpassed = Trigger org.gluu.agama.pw.main authpassed
+it_asyic = {success:true, data: { userId: "as9233Qz", property1: "value1"}}
+Finish it_asyic
