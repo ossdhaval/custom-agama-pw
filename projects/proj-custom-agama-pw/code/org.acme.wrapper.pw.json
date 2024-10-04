@@ -1,35 +1,102 @@
 {
-  "nodes": [
-    {
-      "id": "startNode-5b40c271-30ce-41ef-a50c-cb56fa6df299",
-      "type": "startNode",
-      "sourcePosition": "right",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "data": {
-        "id": "startNode-5b40c271-30ce-41ef-a50c-cb56fa6df299",
-        "type": "startNode",
-        "position": {
-          "x": 30,
-          "y": 40
-        },
-        "agamaData": {
-          "isTopLevelFlow": true,
-          "basepath": "",
-          "configParams": "{}",
-          "nodeIcon": "material-symbols:line-start-square",
-          "timeout": "",
-          "inputs": "",
-          "configs": "",
-          "flowname": "org.acme.wrapper.pw",
-          "displayName": "org.acme.wrapper.pw",
-          "creationDate": "04/10/2024",
-          "hasComment": true,
-          "comment": ""
-        }
-      }
-    }
-  ]
+	"nodes": [
+		{
+			"id": "startNode-5b40c271-30ce-41ef-a50c-cb56fa6df299",
+			"type": "startNode",
+			"sourcePosition": "right",
+			"position": {
+				"x": -7.061595777040736,
+				"y": -33.14197799051391
+			},
+			"data": {
+				"id": "startNode-5b40c271-30ce-41ef-a50c-cb56fa6df299",
+				"type": "startNode",
+				"position": {
+					"x": 30,
+					"y": 40
+				},
+				"agamaData": {
+					"isTopLevelFlow": true,
+					"basepath": "",
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:line-start-square",
+					"timeout": "",
+					"inputs": "",
+					"configs": "",
+					"flowname": "org.acme.wrapper.pw",
+					"displayName": "org.acme.wrapper.pw",
+					"creationDate": "04/10/2024",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "triggerNode-f85d6d04-cf50-4651-a925-02a90faed6dd",
+			"type": "triggerNode",
+			"position": {
+				"x": 242.93840422295926,
+				"y": -33.14197799051391
+			},
+			"data": {
+				"id": "triggerNode-f85d6d04-cf50-4651-a925-02a90faed6dd",
+				"type": "triggerNode",
+				"position": {
+					"x": 242.93840422295926,
+					"y": -33.14197799051391
+				},
+				"previousNodeId": "startNode-5b40c271-30ce-41ef-a50c-cb56fa6df299",
+				"agamaData": {
+					"nodeIcon": "fluent-mdl2:trigger-approval",
+					"flowFileName": "org.gluu.agama.pw.main",
+					"arguments": [],
+					"asssignedVariableName": "auth-passed",
+					"exceptionVariableField": "",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false
+		}
+	],
+	"edges": [
+		{
+			"id": "startNode-5b40c271-30ce-41ef-a50c-cb56fa6df299-triggerNode-f85d6d04-cf50-4651-a925-02a90faed6dd",
+			"type": "default",
+			"source": "startNode-5b40c271-30ce-41ef-a50c-cb56fa6df299",
+			"target": "triggerNode-f85d6d04-cf50-4651-a925-02a90faed6dd",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_startNode-5b40c271-30ce-41ef-a50c-cb56fa6df299"
+		}
+	],
+	"viewport": {
+		"x": 11.266341989878015,
+		"y": 102.27866835598071,
+		"zoom": 0.7578582832551991
+	}
 }
