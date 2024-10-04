@@ -13,6 +13,9 @@
             "pw"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "org.acme.wrapper.pw": {}
+        },
+        "name": "proj-custom-agama-pw"
     }
 }
