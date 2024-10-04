@@ -56,9 +56,9 @@
 					"nodeIcon": "fluent-mdl2:trigger-approval",
 					"flowFileName": "org.gluu.agama.pw.main",
 					"arguments": [
-						"auth-passed"
+						"authpassed"
 					],
-					"asssignedVariableName": "auth-passed",
+					"asssignedVariableName": "authpassed",
 					"exceptionVariableField": "",
 					"nodeColor": "",
 					"titleColor": "",
@@ -72,7 +72,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false
+			"selected": true
 		},
 		{
 			"id": "finishNode-cf5f7552-f294-4208-aeae-8fbf77111764",
@@ -106,7 +106,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
 		}
 	],
 	"edges": [
