@@ -1,1 +1,18 @@
-{}
+{
+    "proj-custom-agama-pw": {
+        "projectName": "proj-custom-agama-pw",
+        "description": "password",
+        "type": "community",
+        "author": "ossdhaval",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/ossdhaval/custom-agama-pw",
+        "githubUri": "https://github.com/ossdhaval/custom-agama-pw",
+        "license": "apache-2.0",
+        "lastUpdated": "1728029331106",
+        "tags": [
+            "pw"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
+    }
+}
